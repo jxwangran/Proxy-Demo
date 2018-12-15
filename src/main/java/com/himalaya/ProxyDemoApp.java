@@ -6,9 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DistributedLockApp {
+public class ProxyDemoApp {
 	public static void main(String[] args) throws InterruptedException {
-		SpringApplication app = new SpringApplication(DistributedLockApp.class);
+		SpringApplication app = new SpringApplication(ProxyDemoApp.class);
 		// 不启动WEB 环境
 		app.setWebEnvironment(false);
 		app.run(args);
